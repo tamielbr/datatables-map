@@ -4,3 +4,5 @@ The objective is to have a <a href="http://leafletjs.com/">leaflet</a> map that,
 
 It is based on <a href="https://github.com/Jumagreens/AfyaMap">AfyaMap</a>.
 
+A working example is available at <a href="http://educacaoaberta.org/leaflet">educacaoaberta.org/leaflet</a>.
+
