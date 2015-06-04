@@ -1,0 +1,18 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+           "file": "datatable.html"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+            -43.13113,
+            -22.90603
+            ]
+         }
+      }
+   ]
+}

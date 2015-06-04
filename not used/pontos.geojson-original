@@ -1,0 +1,31 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "Nome":"Universidade Federal Fluminense",
+            "Entidade":"CEAD – Coordenação de Educação a Distância",
+            "Coordenadora": "Tânia Maria Ferreira Quintella",
+            "Coordenador UAB": "Celso José da Costa",
+            "Coordenador Adjunto": "Regina Célia Moreth Bragança",
+            "Endereço":"Rua Edmundo March S/N°- Praia Vermelha | Boa Viagem",
+            "Cidade": "Niteroi, RJ",
+            "Telefone 1": "(21) 2629-9743",
+            "Telefone 2": "(21) 2629-5206",
+            "Email": "gabinete@gar.uff.br",
+            "URL": "<a href=\"http://www.cead.uff.br\">http://www.cead.uff.br</a>",
+            "Polos": "Atende à 87 municípios através de 104 polos, pois há municípios que contam com mais de um polo de apoio presencial.",
+            "Estados atendidos": "AC, ES, MG, PA, RJ, SP",
+            "Relatório completo" : "Baixe o relatório completo aqui (em formulação)"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+            -43.13113,
+            -22.90603
+            ]
+         }
+      }
+   ]
+}

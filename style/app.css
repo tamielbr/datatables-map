@@ -1,0 +1,134 @@
+@media screen and (max-width: 479px) {
+		html, body {
+  overflow: hidden;
+  background: #f0efe6;
+}
+
+#menubar {
+    float:left;
+    background: #f0efe6;
+	height: auto;
+
+	}
+
+#map {
+  float:left;
+  background: #eee;
+  background: #eee;
+  position:relative;
+  width:100%;
+  height:730px;
+  border-top:2px solid #e0c8d2;
+}
+
+nav.primary{
+	float: left;
+}
+
+nav.primary>ul{
+	border: 2px solid #e0c8d2;
+	border-right-width: 0;
+	padding:0;
+	margin: 5px;
+	margin-left: 40px;
+
+}
+
+li{
+	display: inline-block;
+	border-right: 2px solid #e0c8d2;
+	padding:7px;
+}
+
+a:link{
+	font-family: 'Helvetica Neue',Arial,sans-serif;
+	color: #808080;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #800000;
+	}
+
+
+}
+
+@media screen and (min-width: 480px) {
+html, body {
+}
+
+#map {
+  float:left;
+  background: #eee;
+  background: #eee;
+  position:fixed;
+  top: 0px;
+  left:0px;
+  right:0;
+  bottom:0px;
+  border-top:1px solid #ccc;
+}
+
+/*nav.primary{
+	float: left;
+}
+
+nav.primary>ul{
+	border: 2px solid #e0c8d2;
+	border-right-width: 0;
+	padding:0;
+	margin: 5px;
+	margin-left: 40px;
+}*/
+
+li{
+	display: inline-block;
+	border-right: 2px solid #e0c8d2;
+	padding:7px;
+}
+
+a:link{
+	/*font-family: 'Helvetica Neue',Arial,sans-serif;*/
+	color: #808080;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #800000;
+	}
+}
+
+#inputcontainer{
+	position: absolute;
+	left:45px;
+	top:60px;
+	width:40px;
+}
+
+td, th {
+	vertical-align: top;
+}
+
+@font-face {
+  font-family: cooper;
+  src: url(/font/CooperHewitt-Book.woff);
+}
+
+h1 {
+	font-size: large;
+	font-family: "cooper", sans-serif;
+}
+
+.logo {
+	z-index: 1;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 50px;
+}
+
+.bottom-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
