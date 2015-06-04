@@ -6,8 +6,6 @@
   <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
   <script type='text/javascript' src="libraries/datatables/currency_sort_br.js"></script>
 <script>
-//Pegar dados do index sobre o projeto
-
 $(function() {
         $('#table_data').dataTable( {
                  "language": {
@@ -15,17 +13,16 @@ $(function() {
                      },
                     "ajax": "json/datatable.json",
                     "paging": true,
-                    "order": [0,'asc']
+                    "order": [0,'asc'],
+                    //To guarantee data is loaded before rendering
+                    "initComplete": function(settings, json) {
+                    }
+                  })
                   });
-            });
 </script>
 </head>
 
 <body>
-    <!-- <p class="trail"> <a href="http://dados.educacaoaberta.org">Table list</a> | <a href="http://www.educacaoaberta.org">Main site</a><br>
-        <a href="http://educacaoaberta.org/sobre">Contact us</a>
-    </p> -->
-    <!-- <p class="header"></p> -->
     <table id="table_data" class="display" width="100%">
         <thead>
             <tr>
@@ -49,6 +46,5 @@ $(function() {
             </tr>
         </tfoot>
     </table>
-    <!-- <p><a href="http://datatables.net">DataTables</a><br> -->
 </body>
 </html>
