@@ -4,7 +4,8 @@
       {
          "type":"Feature",
          "properties":{
-           "file": "datatable.html"
+           "Nome" : "Universidade Federal Fluminense",
+           "Arquivo" : "datatable.html"
          },
          "geometry":{
             "type":"Point",

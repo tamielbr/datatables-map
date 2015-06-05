@@ -1,14 +1,14 @@
 .leaflet-sidebar {
     position: absolute;
     height: 100%;
-
+    width: 95%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     /*changed - era 10px, agora ocupa tela toda*/
     padding: 0px;
 
-    z-index: 2000;
+    z-index: 9;
 }
 
 .leaflet-sidebar.left {
@@ -26,6 +26,7 @@
 
 .leaflet-sidebar.left.visible {
     left: 0;
+    z-index: 9;
 }
 
 .leaflet-sidebar.right.visible {
@@ -65,10 +66,11 @@
     border-radius: 4px;*/
 }
 
-@media(max-width:767px){
+/*@media(max-width:767px){
     .leaflet-sidebar {
-        width: 100%;
+        width: 95%;
         padding: 0;
+        font-size: 0.8em;
     }
 
     .leaflet-sidebar.left {
@@ -104,7 +106,8 @@
 
 @media(min-width:768px) and (max-width:991px){
     .leaflet-sidebar {
-        width: 305px;
+        width: 95%;
+        font-size: 0.9em;
     }
 
     .leaflet-sidebar.left.visible ~ .leaflet-left {
@@ -132,7 +135,7 @@
 
 @media(min-width:1200px){
     .leaflet-sidebar {
-      /*changed from 460px default*/
+      /*changed from 460px default
         width: 95%;
     }
 
@@ -143,25 +146,27 @@
     .leaflet-sidebar.right.visible ~ .leaflet-right {
         right: 460px;
     }
-}
+}*/
 
 .leaflet-sidebar .close {
     position: absolute;
     float: left;
-    right: 20px;
+    right: 10px;
     font-weight: bold;
-    top: 1px;
+    margin: 0px;
     /*changed - era 31* para os dois abaixo*/
-    width: 15px;
-    height: 15px;
-    color: #333;
-    font-size: 15pt;
-    line-height: 1em;
-    text-align: left;
-    background: #f0efe6;
-    -webkit-border-radius: 16px;
-    border-radius: 16px;
+    /*width: 15px;
+    height: 15px;*/
+    color: red;
+    /*background: white;*/
+    font-size: 17pt;
+    line-height: 0.6em;
+    /*text-align: left;*/
+    /*border-radius: 16px;*/
     cursor: pointer;
-
     z-index: 8;
+}
+
+.leaflet-sidebar a {
+  text-decoration: none;
 }
